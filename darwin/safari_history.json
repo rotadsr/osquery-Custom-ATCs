@@ -1,0 +1,55 @@
+{
+  "auto_table_construction": {
+    "safari_history_items": {
+      "platform": "darwin",
+      "query": "SELECT * FROM history_items;",
+      "path": "/Users/%/Library/Safari/History.db",
+      "columns": [
+        "id",
+        "url",
+        "domain_expansion",
+        "visit_count",
+        "daily_visit_counts",
+        "weekly_visit_counts",
+        "autocomplete_triggers",
+        "should_recompute_derived_visit_counts",
+        "visit_count_score",
+        "status_code"
+      ]
+    },
+    "safari_history_visits": {
+      "platform": "darwin",
+      "query": "SELECT * FROM history_visits;",
+      "path": "/Users/%/Library/Safari/History.db",
+      "columns": [
+        "id",
+        "history_item",
+        "visit_time",
+        "title",
+        "load_successful",
+        "http_non_get",
+        "synthesized",
+        "redirect_source",
+        "redirect_destination",
+        "origin",
+        "generation",
+        "attributes",
+        "score"
+      ]
+    },
+    "safari_history_tags": {
+      "platform": "darwin",
+      "query": "SELECT * FROM history_tags;",
+      "path": "/Users/%/Library/Safari/History.db",
+      "columns": [
+        "id ",
+        "type",
+        "level",
+        "identifier",
+        "title",
+        "modification_timestamp",
+        "item_count"
+      ]
+    }
+  }
+}
