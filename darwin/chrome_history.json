@@ -1,0 +1,98 @@
+{
+  "auto_table_construction": {
+    "chrome_downloads": {
+      "platform": "darwin",
+      "query": "SELECT * FROM downloads;",
+      "path": "/Users/%/Library/Application Support/Google/Chrome/%/History",
+      "columns": [
+        "id",
+        "guid",
+        "current_path",
+        "target_path",
+        "start_time",
+        "received_bytes",
+        "total_bytes",
+        "state",
+        "danger_type",
+        "interrupt_reason",
+        "hash",
+        "end_time",
+        "opened",
+        "last_access_time",
+        "transient",
+        "referrer",
+        "site_url",
+        "embedder_download_data",
+        "tab_url",
+        "tab_referrer_url",
+        "http_method",
+        "by_ext_id",
+        "by_ext_name",
+        "by_web_app_id",
+        "etag",
+        "last_modified",
+        "mime_type",
+        "original_mime_type"
+      ]
+    },
+    "chrome_downloads_url_chains": {
+      "platform": "darwin",
+      "query": "SELECT * FROM downloads_url_chains;",
+      "path": "/Users/%/Library/Safari/History.db",
+      "columns": [
+        "id",
+        "chain_index",
+        "url"
+      ]
+    },
+    "chrome_clusters": {
+      "platform": "darwin",
+      "query": "SELECT * FROM clusters;",
+      "path": "/Users/%/Library/Safari/History.db",
+      "columns": [
+        "cluster_id",
+        "should_show_on_prominent_ui_surfaces",
+        "label",
+        "raw_label",
+        "triggerability_calculated",
+        "originator_cache_guid",
+        "originator_cluster_id"
+      ]
+    },
+    "chrome_keyword_search_terms": {
+      "platform": "darwin",
+      "query": "SELECT * FROM keyword_search_terms;",
+      "path": "/Users/%/Library/Safari/History.db",
+      "columns": [
+        "keyword_id",
+        "url_id",
+        "term",
+        "normalized_term"
+      ]
+    },
+    "chrome_urls": {
+      "platform": "darwin",
+      "query": "SELECT * FROM urls;",
+      "path": "/Users/%/Library/Safari/History.db",
+      "columns": [
+        "id",
+        "url",
+        "title",
+        "visit_count",
+        "typed_count",
+        "last_visit_time",
+        "hidden"
+      ]
+    },
+    "chrome_segments": {
+      "platform": "darwin",
+      "query": "SELECT * FROM segments;",
+      "path": "/Users/%/Library/Safari/History.db",
+      "columns": [
+        "id",
+        "name",
+        "url_id"
+      ]
+    }
+  }
+}
