@@ -6,3 +6,6 @@ Usage:
 sudo /usr/local/bin/osqueryi --config_path PATH_TO_THE_FILE.json
 ```
 > This will load OSquery with the config ATCs present in the configuration file.
+
+Contribute:
+* Create a new brach which will be merged after approval.
