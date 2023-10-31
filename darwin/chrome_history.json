@@ -38,7 +38,7 @@
     "chrome_downloads_url_chains": {
       "platform": "darwin",
       "query": "SELECT * FROM downloads_url_chains;",
-      "path": "/Users/%/Library/Safari/History.db",
+      "path": "/Users/%/Library/Application Support/Google/Chrome/%/History",
       "columns": [
         "id",
         "chain_index",
@@ -48,7 +48,7 @@
     "chrome_clusters": {
       "platform": "darwin",
       "query": "SELECT * FROM clusters;",
-      "path": "/Users/%/Library/Safari/History.db",
+      "path": "/Users/%/Library/Application Support/Google/Chrome/%/History",
       "columns": [
         "cluster_id",
         "should_show_on_prominent_ui_surfaces",
@@ -62,7 +62,7 @@
     "chrome_keyword_search_terms": {
       "platform": "darwin",
       "query": "SELECT * FROM keyword_search_terms;",
-      "path": "/Users/%/Library/Safari/History.db",
+      "path": "/Users/%/Library/Application Support/Google/Chrome/%/History",
       "columns": [
         "keyword_id",
         "url_id",
@@ -73,7 +73,7 @@
     "chrome_urls": {
       "platform": "darwin",
       "query": "SELECT * FROM urls;",
-      "path": "/Users/%/Library/Safari/History.db",
+      "path": "/Users/%/Library/Application Support/Google/Chrome/%/History",
       "columns": [
         "id",
         "url",
@@ -87,7 +87,7 @@
     "chrome_segments": {
       "platform": "darwin",
       "query": "SELECT * FROM segments;",
-      "path": "/Users/%/Library/Safari/History.db",
+      "path": "/Users/%/Library/Application Support/Google/Chrome/%/History",
       "columns": [
         "id",
         "name",
