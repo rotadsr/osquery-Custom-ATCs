@@ -35,4 +35,7 @@ Contributing:
 * Create a new branch adding the JSON file and a brief explanation on what's the usage.
     * You must add the table headers from `sqlite3` and the relative full path of the database file.
     * You must create separate files for each different platform and PR all of them in their respective folder.
-  
+
+#### References:
+* [osquery Docs: Automatic Table Construction](https://osquery.readthedocs.io/en/stable/deployment/configuration/#automatic-table-construction)
+* [How to Build Custom Osquery Tables Using ATC](https://www.kolide.com/blog/how-to-build-custom-osquery-tables-using-atc)
