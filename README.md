@@ -1,4 +1,4 @@
-# osquery-Custom-ATCs
+# osquery Custom ATCs library
 Custom ATC's ready for being used in OSquery
 
 Usage:
