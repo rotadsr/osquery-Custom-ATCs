@@ -3,7 +3,7 @@
     "chrome_logindata_logins": {
       "platform": "ubuntu",
       "query": "SELECT * FROM logins",
-      "path": "/home/%/snap/chromium/common/chromium/Default/Login Data",
+      "path": "/home/%/snap/chromium/common/chromium/%/Login Data",
       "columns": [
         "origin_url",
         "action_url",
@@ -39,7 +39,7 @@
     "chrome_logindata_insecure_credentials": {
       "platform": "ubuntu",
       "query": "SELECT * FROM insecure_credentials",
-      "path": "/home/%/snap/chromium/common/chromium/Default/Login Data",
+      "path": "/home/%/snap/chromium/common/chromium/%/Login Data",
       "columns": [
         "parent_id",
         "insecurity_type",
@@ -51,7 +51,7 @@
     "chrome_logindata_field_info": {
       "platform": "ubuntu",
       "query": "SELECT * FROM field_info",
-      "path": "/home/%/snap/chromium/common/chromium/Default/Login Data",
+      "path": "/home/%/snap/chromium/common/chromium/%/Login Data",
       "columns": [
         "form_signature",
         "field_signature",
@@ -62,7 +62,7 @@
     "chrome_logindata_stats": {
       "platform": "ubuntu",
       "query": "SELECT * FROM stats",
-      "path": "/home/%/snap/chromium/common/chromium/Default/Login Data",
+      "path": "/home/%/snap/chromium/common/chromium/%/Login Data",
       "columns": [
         "origin_domain",
         "username_value",
