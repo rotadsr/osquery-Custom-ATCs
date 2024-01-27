@@ -1,0 +1,98 @@
+{
+    "auto_table_construction": {
+      "firefox_bookmarks": {
+        "platform": "windows",
+        "query": "SELECT * FROM moz_bookmarks;",
+        "path": "C:\\Users\\%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\%\\places.sqlite",
+        "columns": [
+          "id",
+          "type",
+          "fk",
+          "parent",
+          "position",
+          "title",
+          "keyword_id",
+          "folder_type",
+          "dateAdded",
+          "lastModified",
+          "guid",
+          "syncStatus",
+          "syncChangeCounter"
+        ]
+      },
+      "firefox_bookmarks_deleted": {
+        "platform": "windows",
+        "query": "SELECT * FROM moz_bookmarks_deleted;",
+        "path": "C:\\Users\\%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\%\\places.sqlite",
+        "columns": [
+          "guid",
+          "dateRemoved"
+        ]
+      },
+      "firefox_historyvisits": {
+        "platform": "windows",
+        "query": "SELECT * FROM moz_historyvisits;",
+        "path": "C:\\Users\\%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\%\\places.sqlite",
+        "columns": [
+          "id",
+          "from_visit",
+          "place_id",
+          "visit_date",
+          "visit_type",
+          "session",
+          "source",
+          "triggeringPlaceId"
+        ]
+      },
+      "firefox_inputhistory": {
+        "platform": "windows",
+        "query": "SELECT * FROM moz_inputhistory;",
+        "path": "C:\\Users\\%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\%\\places.sqlite",
+        "columns": [
+          "place_id",
+          "input",
+          "use_count"
+        ]
+      },
+      "firefox_places": {
+        "platform": "windows",
+        "query": "SELECT * FROM moz_places;",
+        "path": "C:\\Users\\%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\%\\places.sqlite",
+        "columns": [
+          "id",
+          "url",
+          "title",
+          "rev_host",
+          "visit_count",
+          "hidden",
+          "typed",
+          "frecency",
+          "last_visit_date",
+          "guid",
+          "foreign_count",
+          "url_hash",
+          "description",
+          "preview_image_url",
+          "site_name",
+          "origin_id",
+          "recalc_frecency",
+          "alt_frecency",
+          "recalc_alt_frecency"
+        ]
+      },
+      "firefox_origins": {
+        "platform": "windows",
+        "query": "SELECT * FROM moz_origins;",
+        "path": "C:\\Users\\%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\%\\places.sqlite",
+        "columns": [
+          "id",
+          "prefix",
+          "host",
+          "frecency",
+          "recalc_frecency",
+          "alt_frecency",
+          "recalc_alt_frecency"
+        ]
+      }
+    }
+  }

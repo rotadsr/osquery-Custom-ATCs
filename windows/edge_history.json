@@ -1,0 +1,98 @@
+{
+    "auto_table_construction": {
+      "edge_downloads": {
+        "platform": "windows",
+        "query": "SELECT * FROM downloads;",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\History",
+        "columns": [
+          "id",
+          "guid",
+          "current_path",
+          "target_path",
+          "start_time",
+          "received_bytes",
+          "total_bytes",
+          "state",
+          "danger_type",
+          "interrupt_reason",
+          "hash",
+          "end_time",
+          "opened",
+          "last_access_time",
+          "transient",
+          "referrer",
+          "site_url",
+          "embedder_download_data",
+          "tab_url",
+          "tab_referrer_url",
+          "http_method",
+          "by_ext_id",
+          "by_ext_name",
+          "by_web_app_id",
+          "etag",
+          "last_modified",
+          "mime_type",
+          "original_mime_type"
+        ]
+      },
+      "edge_downloads_url_chains": {
+        "platform": "windows",
+        "query": "SELECT * FROM downloads_url_chains;",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\History",
+        "columns": [
+          "id",
+          "chain_index",
+          "url"
+        ]
+      },
+      "edge_clusters": {
+        "platform": "windows",
+        "query": "SELECT * FROM clusters;",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\History",
+        "columns": [
+          "cluster_id",
+          "should_show_on_prominent_ui_surfaces",
+          "label",
+          "raw_label",
+          "triggerability_calculated",
+          "originator_cache_guid",
+          "originator_cluster_id"
+        ]
+      },
+      "edge_keyword_search_terms": {
+        "platform": "windows",
+        "query": "SELECT * FROM keyword_search_terms;",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\History",
+        "columns": [
+          "keyword_id",
+          "url_id",
+          "term",
+          "normalized_term"
+        ]
+      },
+      "edge_urls": {
+        "platform": "windows",
+        "query": "SELECT * FROM urls;",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\History",
+        "columns": [
+          "id",
+          "url",
+          "title",
+          "visit_count",
+          "typed_count",
+          "last_visit_time",
+          "hidden"
+        ]
+      },
+      "edge_segments": {
+        "platform": "windows",
+        "query": "SELECT * FROM segments;",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\History",
+        "columns": [
+          "id",
+          "name",
+          "url_id"
+        ]
+      }
+    }
+  }

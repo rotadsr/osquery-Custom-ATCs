@@ -1,0 +1,75 @@
+{
+    "auto_table_construction": {
+      "edge_logindata_logins": {
+        "platform": "windows",
+        "query": "SELECT * FROM logins",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data",
+        "columns": [
+          "origin_url",
+          "action_url",
+          "username_element",
+          "username_value",
+          "password_element",
+          "password_value",
+          "submit_element",
+          "signon_realm",
+          "date_created",
+          "blacklisted_by_user",
+          "scheme",
+          "password_type",
+          "times_used",
+          "form_data",
+          "display_name",
+          "icon_url",
+          "federation_url",
+          "skip_zero_click",
+          "generation_upload_status",
+          "possible_username_pairs",
+          "id",
+          "date_last_used",
+          "moving_blocked_for",
+          "date_password_modified",
+          "sender_email",
+          "sender_name",
+          "date_received",
+          "sharing_notification_displayed",
+          "keychain_identifier"
+        ]
+      },
+      "edge_logindata_insecure_credentials": {
+        "platform": "windows",
+        "query": "SELECT * FROM insecure_credentials",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data",
+        "columns": [
+          "parent_id",
+          "insecurity_type",
+          "create_time",
+          "is_muted",
+          "trigger_notification_from_backend"
+        ]
+      },
+      "edge_logindata_field_info": {
+        "platform": "windows",
+        "query": "SELECT * FROM field_info",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data",
+        "columns": [
+          "form_signature",
+          "field_signature",
+          "field_type",
+          "create_time"
+        ]
+      },
+      "edge_logindata_stats": {
+        "platform": "windows",
+        "query": "SELECT * FROM stats",
+        "path": "C:\\Users\\%\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data",
+        "columns": [
+          "origin_domain",
+          "username_value",
+          "dismissal_count",
+          "update_time"
+        ]
+      }
+    }
+  }
+  
