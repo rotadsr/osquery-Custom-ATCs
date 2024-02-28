@@ -1,0 +1,101 @@
+{
+    "auto_table_construction": {
+        "chat": {
+            "platform": "darwin",
+            "query": "SELECT * FROM chat",
+            "path": "/Users/%/Library/Messages/chat.db",
+            "columns": [
+                "ROWID",
+                "chat_identifier",
+                "service_name",
+                "account_login",
+                "last_addressed_handle",
+                "last_read_message_timestamp"
+            ]
+        },
+        "chat_handle": {
+            "platform": "darwin",
+            "query": "SELECT * FROM handle",
+            "path": "/Users/%/Library/Messages/chat.db",
+            "columns": [
+                "ROWID",
+                "id",
+                "country",
+                "service"
+            ]
+        },
+        "chat_message": {
+            "platform": "darwin",
+            "query": "SELECT * FROM message",
+            "path": "/Users/%/Library/Messages/chat.db",
+            "columns": [
+                "ROWID",
+                "text",
+                "subject",
+                "country",
+                "service",
+                "account",
+                "date",
+                "date_read",
+                "date_delivered",
+                "is_delivered",
+                "is_from_me",
+                "is_empty",
+                "has_dd_results",
+                "is_service_message",
+                "is_forward",
+                "was_downgraded",
+                "is_archive",
+                "cache_has_attachments",
+                "cache_roomnames",
+                "was_data_detected",
+                "was_deduplicated",
+                "is_audio_message",
+                "is_played",
+                "date_played",
+                "item_type",
+                "other_handle",
+                "group_title",
+                "group_action_type",
+                "share_status",
+                "share_direction",
+                "is_expirable",
+                "expire_state",
+                "message_action_type",
+                "message_source",
+                "associated_message_guid",
+                "associated_message_type",
+                "expressive_send_style_id",
+                "associated_message_range_location",
+                "associated_message_range_length",
+                "time_expressive_send_played",
+                "destination_caller_id"
+            ]
+        },
+        "chat_deleted_messages": {
+            "platform": "darwin",
+            "query": "SELECT * FROM deleted_messages",
+            "path": "/Users/%/Library/Messages/chat.db",
+            "columns": [
+                "ROWID",
+                "guid"
+            ]
+        },
+        "chat_attachment": {
+            "platform": "darwin",
+            "query": "SELECT * FROM attachment",
+            "path": "/Users/%/Library/Messages/chat.db",
+            "columns": [
+                "ROWID",
+                "created_date",
+                "filename",
+                "uti",
+                "mime_type",
+                "is_outgoing",
+                "user_info",
+                "transfer_name",
+                "total_bytes"
+            ]
+        }
+    }
+}
