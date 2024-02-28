@@ -1,0 +1,31 @@
+{
+    "auto_table_construction": {
+        "callhistory_zcallrecord": {
+            "platform": "darwin",
+            "query": "SELECT * FROM ZCALLRECORD",
+            "path": "/Users/%/Library/Application Support/CallHistoryDB/CallHistory.storedata",
+            "columns": [
+                "Z_PK",
+                "ZANSWERED",
+                "ZCALL_CATEGORY",
+                "ZCALLTYPE",
+                "ZDATE",
+                "ZDURATION",
+                "ZADDRESS",
+                "ZISO_COUNTRY_CODE",
+                "ZSERVICE_PROVIDER"
+            ]
+        },
+        "callhistory_zhandle": {
+            "platform": "darwin",
+            "query": "SELECT * FROM ZHANDLE",
+            "path": "/Users/%/Library/Application Support/CallHistoryDB/CallHistory.storedata",
+            "columns": [
+                "Z_PK",
+                "ZTYPE",
+                "ZNORMALIZEDVALUE",
+                "ZVALUE"
+            ]
+        }
+    }
+}
