@@ -1,0 +1,14 @@
+{
+    "auto_table_construction": {
+        "weather_location": {
+            "platform": "darwin",
+            "query": "SELECT * FROM currentLocationGeocoded;",
+            "path": "/Users/%/Library/Weather/current-location.db",
+            "columns": [
+                "id",
+                "location",
+                "date"
+            ]
+        }
+    }
+}
