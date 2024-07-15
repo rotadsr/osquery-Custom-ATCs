@@ -1,0 +1,18 @@
+{
+    "auto_table_construction": {
+        "firewall_events": {
+            "platform": "darwin",
+            "query": "SELECT * FROM firewall_record",
+            "path": "/Users/%/Library/IdentityServices/ids-firewall-identityservicesd.db",
+            "columns": [
+                "ROWID",
+                "merge_id",
+                "service",
+                "category",
+                "is_donated",
+                "last_seen_date",
+                "last_modified_date"
+            ]
+        }
+    }
+}
